@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"><!--Stockage mode CDN-->
+        <link rel="shortcut icon" href="medias/fav.png"/>
+        <title>Nous contacter</title>
+    </head>
+
+    <body>
+
+      <!--                 Barre de Navigation                 -->
+
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a title="Accueil" class="navbar-brand" href="index.html">
+            <img src="medias/Logo_OsirisTV.png" alt="Logo OsirisTV" width="60" height="44">
+          </a>
+              
+          <a title="Accueil" class="navbar-brand" href="index.html">Accueil</a>
+    
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a title="Types" class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Types
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                  <li><a title="Film" class="dropdown-item" href="films.html">Film</a></li>
+                  <li><a title="Dessin Animé" class="dropdown-item" href="dessin_anime.html">Dessin Animé</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a title="Genres" class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Genres
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                  <li><a title="Action / Aventure" class="dropdown-item" href="action_aventure.html">Action / Aventure</a></li>
+                  <li><a title="Animation d'image" class="dropdown-item" href="animationdimage.html">Animation d'image</a></li>
+                  <li><a title="Comédie" class="dropdown-item" href="comedie.html">Comédie</a></li>
+                  <li><a title="Comédie musicale" class="dropdown-item" href="comediemusicale.html">Comédie musicale</a></li>
+                  <li><a title="Fantaisie" class="dropdown-item" href="fantaisie.html">Fantaisie</a></li>
+                  <li><a title="Horreur / Surnaturel" class="dropdown-item" href="horreur_surnaturel.html">Horreur / Surnaturel</a></li>
+                  <li><a title="Policier / Thriller" class="dropdown-item" href="policier_thriller.html">Policier / Thriller</a></li>
+                  <li><a title="Romance" class="dropdown-item" href="romance.html">Romance</a></li>
+                  <li><a title="Science-Fiction" class="dropdown-item" href="science_fiction.html">Science-fiction</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a title="Nous Contacter" class="nav-link" href="contact.html">Nous contacter</a>
+              </li>
+              <li class="nav-item">
+                <a title="A propos" class="nav-link" href="apropos.html">A propos</a>
+              </li>
+            </ul>
+            <form class="d-flex" >
+              <input class="form-control me-2" type="search" placeholder="Rechercher.." aria-label="Search">
+              <button type="submit" class="btn btn-light"><img src="medias/loupe.png" alt="loupe" /></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!--                 Arborescence                -->
+    
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="p-3">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a title="Accueil" href="index.html" style="color: rgb(0, 0, 0); text-decoration: none; font-weight: bold;">Accueil</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Nous contacter</li>
+          </ol>
+        </nav>
+    
+        <!--                 Affichage du formulaire                -->
+
+          <main class="container">
+
+
+        <h2>Pour nous contacter, merci de bien vouloir remplir le formulaire suivant</h2>
+        
+        <hr>
+        <br>
+
+        <div class="row">
+
+          <form action="PHP/envoie_mail.php" method="get">
+
+        <!--                 Affichage de l'entrée du formulaire correspondant au nom de l'utilisateur                -->
+
+            <div class="mb-3 row">
+                <label for="exampleInputNom" class="col-sm-2 col-form-label" style="color: rgb(0, 0, 0); font-weight: bold;">Votre nom</label>
+                <div class="col-sm-5">
+                <input type="text" name="nom" class="form-control" id="exampleInputNom" placeholder="Plenozas" required="required">
+                </div>
+              </div>
+
+              <!--                 Affichage de l'entrée du formulaire correspondant au prénom de l'utilisateur                -->
+
+              <div class="mb-3 row">
+                <label for="exampleInputPrénom" class="col-sm-2 col-form-label" style="color: rgb(0, 0, 0); font-weight: bold;">Votre prénom</label>
+                <div class="col-sm-5">
+                <input type="text" name="prenom" class="form-control" id="exampleInputPrénom" placeholder="Jean" required="required">
+                </div>
+              </div>
+
+              <!--                 Affichage de l'entrée du formulaire correspondant à l'addresse email universitaire de l'utilisateur                -->
+
+              <div class="mb-3 row">
+                <label for="exampleInputEmail1" class="col-sm-2 col-form-label" style="color: rgb(0, 0, 0); font-weight: bold;">Votre adresse email</label>
+                <div class="col-sm-5">
+                  <input type="email"  name="exped" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Jean.plenozas5@etu.univ-lorraine.fr" required="required">
+                  <div id="emailHelp" class="form-text">Votre email ne sera partagé avec personne.</div>
+                </div>
+              </div>
+
+              <!--                 Affichage de l'entrée du formulaire correspondant à l'addresse email universitaire du destinataire                -->
+
+              <div class="mb-3 row">
+                <label for="exampleInputEmail2" class="col-sm-2 col-form-label" style="color: rgb(0, 0, 0); font-weight: bold;">Adresse email du destinataire</label>
+                <div class="col-sm-5">
+                  <input type="email" name="dest" class="form-control" id="exampleInputEmail2" placeholder="Marie.france8@etu.univ-lorraine.fr" required="required">
+                </div>
+              </div>
+
+              <!--                 Affichage de l'entrée du formulaire correspondant à l'objet du message de l'utilisateur                -->
+
+              <div class="mb-3 row ">
+                <label for="selection" class="col-sm-2 col-form-label" style="color: rgb(0, 0, 0); font-weight: bold;">Objet</label>
+                <div class="col-sm-5">
+                  <select class="form-select" name="objet" aria-label="Default select example" id="selection">
+                  <option selected>Choisir l'option qui vous concerne</option>
+                  <option value="J'ai besoin d'informations">J'ai besoin d'informations</option>
+                  <option value="J'ai un problème">J'ai un problème</option>
+                  <option value="J'aurais une question sur un sujet">J'aurais une question sur un sujet</option>
+                  <option value="Autres">Autres</option>
+                  </select>
+                </div>
+             </div>
+
+             <!--                 Affichage de l'entrée du formulaire correspondant au message de l'utilisateur                -->
+
+            <div class="mb-3 row">
+                <label for="exampleFormControlTextarea1" class="col-sm-2 col-form-label" style="color: rgb(0, 0, 0); font-weight: bold;">Votre message</label>
+                <div class="col-sm-7">
+                <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+            </div>
+
+            <!--                 Affichage des cases à cocher du formulaire                -->
+
+            <div class="row mb-3">
+                <div class="col-sm-10 offset-sm-2">
+                    <div class="form-check">
+                        <input class="form-check-input" name="notifs" type="checkbox" value="oui" id="flexCheckDefault1">
+                        <label class="form-check-label" for="flexCheckDefault1">
+                          J'accepte de recevoir des notification par email
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="conditions" type="checkbox" value="oui" id="flexCheckDefault2">
+                        <label class="form-check-label" for="flexCheckDefault2">
+                            J'accepte les Conditions Générales et la politique de confidentialité
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+                <!--                 Affichage du niveau de satisfaction du formulaire                -->
+
+                <label for="customRange2" class="form-label" style="color: rgb(0, 0, 0); font-weight: bold;">Niveau de satisfaction</label>
+                <input type="range" name="avis" class="form-range" min="0" max="5" id="customRange2">
+        
+            
+            <!--                 Affichage des boutons envoyer et rénitialiser du formulaire                -->
+
+            <button type="submit" class="btn btn-primary mb-5" style="color: rgb(255, 255, 255); text-decoration: none; font-weight: bold;">Envoyer</button>
+            <button type="reset" class="btn btn-primary mb-5" style="color: rgb(255, 255, 255); text-decoration: none; font-weight: bold;">Rénitialiser</button>
+
+          </form>
+        </div>
+
+          <!--                 Footer                -->
+
+          <footer class="py-3 my-4 border-top">
+            <p>&copy; Alan Wilhelm</p>
+          </footer>
+
+         </main> 
+
+          <!--                 Stockage mode CDN                 -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    </body>
+</html>

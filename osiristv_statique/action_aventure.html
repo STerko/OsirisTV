@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+      <meta charset="UTF-8">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"><!--Stockage mode CDN-->
+      <link rel="shortcut icon" href="medias/fav.png"/>
+      <title>Action / Aventure</title>
+  </head>
+
+  <body>
+
+    <!--                 Barre de Navigation                 -->
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a title="Accueil" class="navbar-brand" href="index.html">
+          <img src="medias/Logo_OsirisTV.png" alt="Logo OsirisTV" width="60" height="44">
+        </a>
+            
+        <a title="Accueil" class="navbar-brand" href="index.html">Accueil</a>
+  
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a title="Types" class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Types
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                <li><a title="Film" class="dropdown-item" href="films.html">Film</a></li>
+                <li><a title="Dessin Animé" class="dropdown-item" href="dessin_anime.html">Dessin Animé</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a title="Genres" class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Genres
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                <li><a title="Action / Aventure" class="dropdown-item" href="action_aventure.html">Action / Aventure</a></li>
+                <li><a title="Animation d'image" class="dropdown-item" href="animationdimage.html">Animation d'image</a></li>
+                <li><a title="Comédie" class="dropdown-item" href="comedie.html">Comédie</a></li>
+                <li><a title="Comédie musicale" class="dropdown-item" href="comediemusicale.html">Comédie musicale</a></li>
+                <li><a title="Fantaisie" class="dropdown-item" href="fantaisie.html">Fantaisie</a></li>
+                <li><a title="Horreur / Surnaturel" class="dropdown-item" href="horreur_surnaturel.html">Horreur / Surnaturel</a></li>
+                <li><a title="Policier / Thriller" class="dropdown-item" href="policier_thriller.html">Policier / Thriller</a></li>
+                <li><a title="Romance" class="dropdown-item" href="romance.html">Romance</a></li>
+                <li><a title="Science-Fiction" class="dropdown-item" href="science_fiction.html">Science-fiction</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a title="Nous Contacter" class="nav-link" href="contact.html">Nous contacter</a>
+            </li>
+            <li class="nav-item">
+              <a title="A propos" class="nav-link" href="apropos.html">A propos</a>
+            </li>
+          </ul>
+          <form class="d-flex" >
+            <input class="form-control me-2" type="search" placeholder="Rechercher.." aria-label="Search">
+            <button type="submit" class="btn btn-light"><img src="medias/loupe.png" alt="loupe" /></button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!--                 Arborescence                -->
+
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="p-3">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a title="Accueil" href="index.html" style="color: rgb(0, 0, 0); text-decoration: none; font-weight: bold;">Accueil</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Action / Aventure</li>
+      </ol>
+    </nav>
+
+    <!--                 Affichage de tous les films apparetant au genre "Action / Aventure"               -->
+  
+    <main class="container">
+
+      <h2>Séléction des oeuvres appartenant au genre "Action / Aventure" qui sont disponibles pour le moment :</h2>
+            
+      <hr>
+      <br>
+    
+      <div class="row">
+        <div class="row justify-content-md-center p-2">
+
+
+          <div class="col-sm-3 col-md--4">
+            <div class="card text-center text-white bg-dark mb-3">
+              <a title="Astérix et la potion magique" href="asterix.html" style="color: white; text-decoration: none;">
+                <img src="medias/affiches/image14.jpg" class="card-img-top" alt="Astérix : Le Secret de la potion magique">
+                <div class="card-body">
+                  <p class="card-text">Astérix : Le Secret de la potion magique</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-sm-3 col-md--4">
+            <div class="card text-center text-white bg-dark mb-3">
+              <a title="Ça" href="ca.html" style="color: white; text-decoration: none;">
+                <img src="medias/affiches/image4.jpg" class="card-img-top" alt="Ça">
+                <div class="card-body">
+                   <p class="card-text">Ça</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-sm-3 col-md--4">
+            <div class="card text-center text-white bg-dark mb-3">
+              <a title="Demon Slayer" href="demonslayer.html" style="color: white; text-decoration: none;">
+                <img src="medias/affiches/image5.jpg" class="card-img-top" alt="Demon Slayer">
+                <div class="card-body">
+                  <p class="card-text">Demon Slayer</p>
+                </div>
+              </a>
+            </div>
+          </div>
+      
+          <div class="col-sm-3 col-md--4">
+            <div class="card text-center text-white bg-dark mb-3">
+              <a title="Dora et la Cité perdue" href="dora.html" style="color: white; text-decoration: none;">
+                <img src="medias/affiches/image18.jpg" class="card-img-top" alt="Dora et la Cité perdue">
+                <div class="card-body">
+                  <p class="card-text">Dora et la Cité perdue</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-sm-3 col-md--4">
+            <div class="card text-center text-white bg-dark mb-3">
+              <a title="En avant" href="enavant.html" style="color: white; text-decoration: none;">
+                <img src="medias/affiches/image19.jpg" class="card-img-top" alt="En avant">
+                <div class="card-body">
+                  <p class="card-text">En avant</p>
+                </div>
+              </a>
+            </div>
+          </div>
+      
+          <div class="col-sm-3 col-md--4">
+            <div class="card text-center text-white bg-dark mb-3">
+              <a title="Fight Club" href="fightclub.html" style="color: white; text-decoration: none;">
+                <img src="medias/affiches/image6.jpg" class="card-img-top" alt="Fight Club">
+                <div class="card-body">
+                  <p class="card-text">Fight Club</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-sm-3 col-md--4">
+            <div class="card text-center text-white bg-dark mb-3">
+              <a title="Interstellar" href="interstellar.html" style="color: white; text-decoration: none;">
+                <img src="medias/affiches/image9.jpg" class="card-img-top" alt="Interstellar">
+                <div class="card-body">
+                  <p class="card-text">Interstellar</p>
+                </div>
+              </a>
+            </div>
+          </div>
+      
+          <div class="col-sm-3 col-md--4">
+            <div class="card text-center text-white bg-dark mb-3">
+              <a title="Iron man" href="ironman.html" style="color: white; text-decoration: none;">
+                <img src="medias/affiches/image1.jpg" class="card-img-top" alt="Iron man">
+                <div class="card-body">
+                  <p class="card-text">Iron man</p>
+                </div>
+              </a>
+            </div>
+          </div>
+    
+          <div class="col-sm-3 col-md--4">
+            <div class="card text-center text-white bg-dark mb-3">
+              <a title="Jumanji : Bienvenue dans la jungle" href="jumanji.html" style="color: white; text-decoration: none;">
+                <img src="medias/affiches/image13.jpg" class="card-img-top" alt="Jumanji : Bienvenue dans la jungle">
+                <div class="card-body">
+                  <p class="card-text">Jumanji : Bienvenue dans la jungle</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-sm-3 col-md--4">
+            <div class="card text-center text-white bg-dark mb-3">
+              <a title="Jupiter : Le Destin de l'univers" href="jupiter.html" style="color: white; text-decoration: none;">
+                <img src="medias/affiches/image11.jpg" class="card-img-top" alt="Jupiter : Le Destin de l'univers">
+                <div class="card-body">
+                  <p class="card-text">Jupiter : Le Destin de l'univers</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-sm-3 col-md--4">
+            <div class="card text-center text-white bg-dark mb-3">
+              <a title="La Reine des neiges" href="lareinedesneiges.html" style="color: white; text-decoration: none;">
+                <img src="medias/affiches/image20.jpg" class="card-img-top" alt="La Reine des neiges">
+                <div class="card-body">
+                  <p class="card-text">La Reine des neiges</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-sm-3 col-md--4">
+            <div class="card text-center text-white bg-dark mb-3">
+              <a title="Le Hobbit: La désolation de Smaug" href="lehobbitsmaug.html" style="color: white; text-decoration: none;">
+                <img src="medias/affiches/image12.jpg" class="card-img-top" alt="Le Hobbit: La désolation de Smaug">
+                <div class="card-body">
+                  <p class="card-text">Le Hobbit: La désolation de Smaug</p>
+                </div>
+              </a>
+            </div>
+          </div>
+  
+          <div class="col-sm-3 col-md--4">
+            <div class="card text-center text-white bg-dark mb-3">
+              <a title="Le Seigneur des Anneaux - La Communauté de l'anneau" href="seigneurdesanneaux.html" style="color: white; text-decoration: none;">
+                <img src="medias/affiches/image10.jpg" class="card-img-top" alt="Le Seigneur des Anneaux - La Communauté de l'anneau">
+                <div class="card-body">
+                  <p class="card-text">Le Seigneur des Anneaux - La Communauté de l'anneau</p>
+                </div>
+              </a>
+            </div>
+          </div>
+      
+          <div class="col-sm-3 col-md--4">
+            <div class="card text-center text-white bg-dark mb-3">
+              <a title="Lego Ninjago, le film" href="legoninjago.html" style="color: white; text-decoration: none;">
+                <img src="medias/affiches/image3.jpg" class="card-img-top" alt="Lego Ninjago, le film">
+                <div class="card-body">
+                  <p class="card-text">Lego Ninjago, le film</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-sm-3 col-md--4">
+            <div class="card text-center text-white bg-dark mb-3">
+              <a title="Les Mondes de Ralph" href="lesmondesderalph.html" style="color: white; text-decoration: none;">
+                <img src="medias/affiches/image24.jpg" class="card-img-top" alt="Les Mondes de Ralph">
+                <div class="card-body">
+                  <p class="card-text">Les Mondes de Ralph</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-sm-3 col-md--4">
+            <div class="card text-center text-white bg-dark mb-3">
+              <a title="Moi moche et méchant" href="moimochemechant.html" style="color: white; text-decoration: none;">
+                <img src="medias/affiches/image8.jpg" class="card-img-top" alt="Moi moche et méchant">
+                <div class="card-body">
+                  <p class="card-text">Moi moche et méchant</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-sm-3 col-md--4">
+            <div class="card text-center text-white bg-dark mb-3">
+              <a title="Mon Voisin Totoro" href="totoro.html" style="color: white; text-decoration: none;">
+                <img src="medias/affiches/image2.jpg" class="card-img-top" alt="Mon Voisin Totoro">
+                <div class="card-body">
+                  <p class="card-text">Mon Voisin Totoro</p>
+                </div>
+              </a>
+            </div>
+          </div>
+      
+          <div class="col-sm-3 col-md--4">
+            <div class="card text-center text-white bg-dark mb-3">
+              <a title="Pirates des Caraïbes - La Malédiction du Black Pearl" href="pirates_des_caraibes.html" style="color: white; text-decoration: none;">
+                <img src="medias/affiches/image23.jpg" class="card-img-top" alt="Pirates des Caraïbes - La Malédiction du Black Pearl">
+                <div class="card-body">
+                  <p class="card-text">Pirates des Caraïbes - La Malédiction du Black Pearl</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-sm-3 col-md--4">
+            <div class="card text-center text-white bg-dark mb-3">
+              <a title="Raiponce" href="raiponce.html" style="color: white; text-decoration: none;">
+                <img src="medias/affiches/image16.jpg" class="card-img-top" alt="Raiponce">
+                <div class="card-body">
+                  <p class="card-text">Raiponce</p>
+                </div>
+              </a>
+            </div>
+          </div>
+    
+          <div class="col-sm-3 col-md--4">
+            <div class="card text-center text-white bg-dark mb-3">
+              <a title="Shang-Chi et la Légende des Dix Anneaux" href="shangchi.html" style="color: white; text-decoration: none;">
+                <img src="medias/affiches/image22.jpg" class="card-img-top" alt="Shang-Chi et la Légende des Dix Anneaux">
+                <div class="card-body">
+                  <p class="card-text">Shang-Chi et la Légende des Dix Anneaux</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+        <div class="col-sm-3 col-md--4">
+          <div class="card text-center text-white bg-dark mb-3">
+            <a title="Spider-Man : No Way Home" href="spiderman.html" style="color: white; text-decoration: none;">
+              <img src="medias/affiches/image21.jpg" class="card-img-top" alt="Spider-Man : No Way Home">
+              <div class="card-body">
+                <p class="card-text">Spider-Man : No Way Home</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+      </div>
+      </div>
+
+      <!--                 Footer                -->
+
+
+      <footer class="py-3 my-4 border-top">
+        <p>&copy; Alan Wilhelm</p>
+      </footer>
+
+    </main>
+
+    <!--                 Stockage mode CDN                 -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  </body>
+
+</html>
